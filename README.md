@@ -24,6 +24,8 @@
 
 - DWA(Dynamic Window Approach)
 
+![DWA_SIM](https://user-images.githubusercontent.com/49723556/100526580-6ecfae00-320d-11eb-85dc-180bc0399903.gif)
+
 - 3-DOF Inverse Kinematics
 
 - Ros와 MCU간의 Serial 통신
