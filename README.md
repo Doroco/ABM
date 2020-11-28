@@ -41,7 +41,7 @@ https://youtu.be/9r_tR3T8_8s
 ### Project Scenarios
 
 
-- 세부기술 정리: https://doroco.github.io/ 
+- 세부기술 정리(준비중): https://doroco.github.io/ 
 
 ### reference
 - [1]Fox, D., Burgard, W., & Thrun, S. (1997). The dynamic window approach to collision avoidance. IEEE Robotics & Automation Magazine, 4(1), 23–33. 
