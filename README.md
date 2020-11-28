@@ -26,7 +26,11 @@
 
 ![DWA_SIM](https://user-images.githubusercontent.com/49723556/100526580-6ecfae00-320d-11eb-85dc-180bc0399903.gif)
 
+- 실제 주행
+
 - 3-DOF Inverse Kinematics
+
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/49723556/100526648-472d1580-320e-11eb-9251-9d0de1e72fd4.gif)
 
 - Ros와 MCU간의 Serial 통신
 
