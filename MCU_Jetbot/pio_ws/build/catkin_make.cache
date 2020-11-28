@@ -1,0 +1,2 @@
+DynamixelSDK/ros:e2box_imu_9dofv4:pio_tf:robot_pose_ekf:ros_image_test:ros_robotarm:ros_tutorial_msgs:rplidar_ros:vrep_dwa:vrep_franka_tutorial
+-G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/robpang/pio_ws/devel -DCMAKE_INSTALL_PREFIX=/home/robpang/pio_ws/install

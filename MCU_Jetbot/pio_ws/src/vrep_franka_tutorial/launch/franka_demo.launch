@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node name="vrep_franka_tutorial" pkg="vrep_franka_tutorial" type="vrep_franka_tutorial" output="screen" >
+  </node>
+
+</launch>

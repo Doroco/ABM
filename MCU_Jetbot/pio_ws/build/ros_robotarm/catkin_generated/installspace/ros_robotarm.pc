@@ -1,0 +1,8 @@
+prefix=/home/robpang/pio_ws/install
+
+Name: ros_robotarm
+Description: Description of ros_robotarm
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

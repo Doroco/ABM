@@ -1,0 +1,8 @@
+<launch>
+  <arg name="serial_port" default="/dev/ttyUSB3" />
+
+  <node name="ros_robotarm" pkg="ros_robotarm" type="ros_robotarm" output="screen" >
+    <param name="Port" type="string" value="$(arg serial_port)" />
+  </node>
+
+</launch>

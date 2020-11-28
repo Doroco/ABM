@@ -1,0 +1,8 @@
+prefix=/home/robpang/pio_ws/install
+
+Name: ros_tutorial_msgs
+Description: Description of ros_tutorial_msgs
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

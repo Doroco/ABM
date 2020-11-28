@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/robpang/pio_ws/src/e2box_imu_9dofv4/src/t_serial.cpp
+t_serial.h
+/home/robpang/pio_ws/src/e2box_imu_9dofv4/src/t_serial.h
+
+/home/robpang/pio_ws/src/e2box_imu_9dofv4/src/t_serial.h
+iostream
+-
+fcntl.h
+-
+unistd.h
+-
+string
+-
+string.h
+-
+termios.h
+-
+linux/serial.h
+-
+pthread.h
+-
+

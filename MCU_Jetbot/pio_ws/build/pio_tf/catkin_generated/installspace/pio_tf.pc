@@ -1,0 +1,8 @@
+prefix=/home/robpang/pio_ws/install
+
+Name: pio_tf
+Description: Description of pio_tf
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

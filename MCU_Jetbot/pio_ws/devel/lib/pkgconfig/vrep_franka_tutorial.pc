@@ -1,0 +1,8 @@
+prefix=/home/robpang/pio_ws/devel
+
+Name: vrep_franka_tutorial
+Description: Description of vrep_franka_tutorial
+Version: 0.0.1
+Cflags: -I/home/robpang/pio_ws/src/vrep_franka_tutorial/include
+Libs: -L${prefix}/lib 
+Requires: 

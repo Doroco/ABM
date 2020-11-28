@@ -1,0 +1,8 @@
+prefix=/home/robpang/pio_ws/devel
+
+Name: e2box_imu
+Description: Description of e2box_imu
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib -le2box_imu
+Requires: roscpp sensor_msgs std_msgs

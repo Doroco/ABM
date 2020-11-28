@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/e2box_imu1.dir/src/e2box_imu_9dofv4.cpp.o  -o /home/robpang/pio_ws/devel/lib/e2box_imu/e2box_imu1 -rdynamic 

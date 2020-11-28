@@ -1,0 +1,8 @@
+prefix=/home/robpang/pio_ws/install
+
+Name: vrep_dwa
+Description: Description of vrep_dwa
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
