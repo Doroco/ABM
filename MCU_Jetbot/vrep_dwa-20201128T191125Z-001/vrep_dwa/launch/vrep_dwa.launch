@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-
-  <node name="vrep_dwa" pkg="vrep_dwa" type="vrep_dwa" output="screen" >
-  </node>
-
-</launch>

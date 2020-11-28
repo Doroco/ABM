@@ -4,16 +4,14 @@ DWA_Planner::DWA_Planner(void)
   :scan_updated(false), position_updated(false), goal_updated(false),twist_updated(false)
 {
   dt = 1.0/SAMPlE_HZ;
-  Mode = 0;
+  mode = 1;
   current_velocity.linear.x = 0.0;
   current_velocity.angular.z = 0.0;
   twist_pub = nh.advertise<geometry_msgs::Twist>("/cmd_vel",10);
   Scan_sub = nh.subscribe<sensor_msgs::LaserScan>("scan",10,&DWA_Planner::scan_callback,this);
   goal_pose_sub = nh.subscribe<geometry_msgs::Point>("/set_goal",10,&DWA_Planner::goal_callback,this);
-  Current_Pose_sub = nh.subscribe<geometry_msgs::Pose2D>("/odom",10,&DWA_Planner::cur_pos_callback,this);
-  mode_sub = nh.subscribe<ros_tutorial_msgs::msgData>("mode_topic",100,&DWA_Planner::modecallback,this);
+  Current_Pose_sub = nh.subscribe<geometry_msgs::Pose2D>("/Odom_update",10,&DWA_Planner::cur_pos_callback,this);
 }
-
 
 DWA_Planner::State::State(double _x, double _y, double _theata, double _v,double _w)
   :x(_x) ,y(_y), theata(_theata),v(_v),w(_w)
@@ -31,10 +29,6 @@ DWA_Planner::Window::Window(const double _v_min,const double _v_max,const double
  :v_min(_v_min), v_max(_v_max),w_min(_w_min),w_max(_w_max)
 {
 
-}
-
-void DWA_Planner::modecallback (const ros_tutorial_msgs::msgData::ConstPtr& data){
-   // Mode = data->mode;
 }
 
 void DWA_Planner::scan_callback(const sensor_msgs::LaserScanConstPtr& msg)
@@ -231,14 +225,14 @@ std::vector<DWA_Planner::State> DWA_Planner::Find_BestTrajectory(Window window,E
       State state(Cur_pose.x(),Cur_pose.y(),Cur_pose.z(), 0.0, 0.0);
       traj.push_back(state);
       best_traj = traj;
-      if(Mode == 1)
+      if(mode == 1)
       {
         best_velocity.linear.x = 0;
-        best_velocity.angular.z = 0;
+        best_velocity.angular.z = ;
       }
       else {
         best_velocity.linear.x = 0;
-        best_velocity.angular.z = (double)MAX_OMEGA/5.0;
+        best_velocity.angular.z = 0;
       }
   }
 

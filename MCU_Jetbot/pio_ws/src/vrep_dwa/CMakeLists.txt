@@ -10,7 +10,6 @@ find_package(catkin REQUIRED COMPONENTS
   actionlib_msgs
   actionlib
   control_msgs
-  ros_tutorial_msgs
 )
 find_package(Eigen3 REQUIRED)
 

@@ -21,7 +21,6 @@
 #include <geometry_msgs/Twist.h>
 #include <Eigen/Dense>
 #include <unsupported/Eigen/MatrixFunctions>
-#include "ros_tutorial_msgs/msgData.h"
 
 
 #include <math.h>
@@ -93,8 +92,7 @@ public:
     void cur_pos_callback(const geometry_msgs::Pose2DConstPtr& msg);
 
     void process(void);
-    void set(int Mode){ this->Mode = Mode;}
-    int get(int Mode){ return this->Mode;}
+    void get(int mode){ this->mode = mode;}
     //Map Imforamtion
     std::vector<Eigen::Vector2f> scan_to_obs();
 
@@ -109,7 +107,6 @@ public:
     float calc_speed_cost(const std::vector<State>& traj, const float target_velocity);
     float calc_obstacle_cost(const std::vector<State>& traj, const std::vector<Eigen::Vector2f>& Obsist);
 
-    void modecallback (const ros_tutorial_msgs::msgData::ConstPtr& data);
 private:
     ros::NodeHandle nh;
 
@@ -118,7 +115,6 @@ private:
     ros::Subscriber Scan_sub;
     ros::Subscriber goal_pose_sub;
     ros::Subscriber Current_Pose_sub;
-    ros::Subscriber mode_sub;
 
     geometry_msgs::Twist current_velocity;
     geometry_msgs::Twist best_velocity;
@@ -135,7 +131,7 @@ private:
     bool position_updated;
     bool goal_updated;
     bool twist_updated;
-    uint8_t  Mode;
+    int  mode;
 
     double dt;
 };
