@@ -3,6 +3,8 @@
 참빛설계 프로젝트입니다.
 로봇팔이 부착된 Mobile robot이 다양한 Task를 수행합니다.
 
+- 세부기술 정리: https://doroco.github.io/ 
+
 ## 목차
 - System Architecture
 - Hardware Architecture
