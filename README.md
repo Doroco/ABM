@@ -2,6 +2,8 @@
 
 로봇팔이 부착된 Mobile robot이 다양한 Task를 수행합니다.
 
+- 프로젝트 5분 소개영상
+https://youtu.be/9r_tR3T8_8s
 
 ## 목차
 
