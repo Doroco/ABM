@@ -26,6 +26,7 @@ https://youtu.be/9r_tR3T8_8s
 
 - DWA(Dynamic Window Approach)
 
+![Global_PathPlanning](https://user-images.githubusercontent.com/54099930/109391138-f33ee380-7958-11eb-99e8-d518f9859364.gif)
 ![DWA_SIM](https://user-images.githubusercontent.com/49723556/100526580-6ecfae00-320d-11eb-85dc-180bc0399903.gif)
 
 - 실제 주행
