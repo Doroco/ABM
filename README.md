@@ -52,3 +52,4 @@ https://youtu.be/9r_tR3T8_8s
 https://pinkwink.kr/732
 - [3]Rached Dhaouadi, Dynamic Modelling of Differential-Drive Mobile Robots using Lagrange and Newton-Euler Methodologies: A Unified Framework,Adv Robot Autom,2013,pp3-6.
 - [4]Modern Robotics, Kevin M.Lynch, Frank C.Park
+.
