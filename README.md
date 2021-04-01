@@ -42,7 +42,6 @@ https://youtu.be/9r_tR3T8_8s
 
 ### Project Scenarios
 
-
 - 세부기술 정리(준비중): https://doroco.github.io/ 
 
 ### reference
