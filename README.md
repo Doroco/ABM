@@ -14,10 +14,10 @@ https://youtu.be/9r_tR3T8_8s
 - Reference
 
 
-### System Architecure
+### System Architecture
 ![시스템아키텍쳐](https://user-images.githubusercontent.com/49723556/100517133-f7c5f580-31cb-11eb-95bd-975f90b0b69b.png)
 
-### Hardware Achitecture
+### Hardware Architecture
 ![하드웨어 아키텍쳐](https://user-images.githubusercontent.com/49723556/100517722-2e9e0a80-31d0-11eb-907d-737a6c4b231f.png)
 
 ### 구현내용
